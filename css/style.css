@@ -1,0 +1,29 @@
+.card-top{
+    max-height: 250px !important;
+}
+
+.card-top >.card-body{
+padding: 6% !important;
+}
+
+.mybg-gray{
+    background-color: #413e3e;
+}
+
+#footer .list-group-item{
+    background-color: #413e3e !important;
+    border: none;
+    color: white;
+}
+
+.link-top{
+    color:white;
+}
+/*Aplicar media querie en 993 a 1170 px*/
+
+@media (min-width:993px) and (max-width:1170px){
+    .card.top > .card-body{
+        font-size: 0.9rem !important;
+    }
+    /*n cantidad de css*/
+}
